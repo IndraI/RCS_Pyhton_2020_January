@@ -22,6 +22,8 @@ def atvieglojumi(i1=False, i2=False, p=False):
         res += 154
     return res
 
+    
+
 def iin(alga, apl_a, apgd_pers=0, inv1=False, inv2=False, p=False):
     if alga <= 1667:
         return 0.2 * apl_a
